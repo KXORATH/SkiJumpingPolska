@@ -1,0 +1,19 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7FF;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navsettings
+{
+    background-color: #577399;
+    color: #FEFFFE;
+}
+
+.ulsettings
+{
+    color: red;
+}
+
