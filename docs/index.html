@@ -11,6 +11,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
 
 </head>
@@ -103,6 +104,130 @@
         </div>
 
     </header>
+
+    <main>
+
+        <section class="container">
+            <h1>zawody w polsce</h1>
+            <div class="row">
+                <article class="card fl-left">
+                    <section class="date">
+                        <time datetime="20th nov">
+                            <span>20</span><span>listopad</span>
+                        </time>
+                    </section>
+                    <section class="card-cont">
+                        <small>wisła malinka</small>
+                        <h3>PŚ WISŁA DRUŻYNOWY</h3>
+                        <div class="even-date">
+                            <i class="fa fa-calendar"></i>
+                            <time>
+                                <span>SOBOTA 20 LISTOPADA 2021</span>
+                                <span>START: 17:00</span>
+                            </time>
+                        </div>
+                        <div class="even-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>
+                                Inauguracja sezonu 2021/22 na skoczni Wisła Malinka im. Adama Małysza
+                            </p>
+                        </div>
+                        <a href="https://www.wisla-malinka.com/pl/bilety.html">KUP BILET</a>
+                    </section>
+                </article>
+                <article class="card fl-left">
+                    <section class="date">
+                        <time datetime="21st nov">
+                            <span>21</span><span>listopad</span>
+                        </time>
+                    </section>
+                    <section class="card-cont">
+                        <small>WISŁA MALINKA</small>
+                        <h3>PŚ WISŁA INDYWIDUALNY</h3>
+                        <div class="even-date">
+                            <i class="fa fa-calendar"></i>
+                            <time>
+                                <span>NIEDZIELA 21 LISTOPADA 2021</span>
+                                <span>START: 16:00</span>
+                            </time>
+                        </div>
+                        <div class="even-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>
+                                Pierwszy konkurs indywidualny w sezonie 2021/21
+                            </p>
+                        </div>
+                        <a href="https://www.wisla-malinka.com/pl/bilety.html">Kup Bilet</a>
+                    </section>
+                </article>
+            </div>
+            <div class="row">
+                <article class="card fl-left">
+                    <section class="date">
+                        <time datetime="15th jan">
+                            <span>15</span><span>styczeń</span>
+                        </time>
+                    </section>
+                    <section class="card-cont">
+                        <small>WIELKA KROKIEW ZAKOPANE</small>
+                        <h3>PŚ ZAKOPANE DRUŻYNOWY</h3>
+                        <div class="even-date">
+                            <i class="fa fa-calendar"></i>
+                            <time>
+                                <span>SOBOTA 15 stycznia 2022</span>
+                                <span>START: 16:30</span>
+                            </time>
+                        </div>
+                        <div class="even-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>
+                                Konkurs drużynowy w Zakopanem na skoczni im. Stanisława Marusarza
+                            </p>
+                        </div>
+                        <a href="https://www.worldcup-zakopane.pl/pl/bilety.html">kupiony</a>
+                    </section>
+                </article>
+                <article class="card fl-left">
+                    <section class="date">
+                        <time datetime="16th jan">
+                            <span>16</span><span>Styczeń</span>
+                        </time>
+                    </section>
+                    <section class="card-cont">
+                        <small>WIELKA Krokiew zakopane</small>
+                        <h3>PŚ Zakopane indywidualny</h3>
+                        <div class="even-date">
+                            <i class="fa fa-calendar"></i>
+                            <time>
+                                <span>SOBOTA 16 Stycznia 2022</span>
+                                <span>START: 16:00</span>
+                            </time>
+                        </div>
+                        <div class="even-info">
+                            <i class="fa fa-map-marker"></i>
+                            <p>
+                                Konkurs indywidualny w Zakopanem na skoczni im. Stanisława Marusarza
+                            </p>
+                        </div>
+                        <a href="https://www.worldcup-zakopane.pl/pl/bilety.html">sprzedane</a>
+                    </section>
+                </article>
+            </div>
+        </section>
+
+            <hr>
+
+            <section class="container">
+                <h1>Jak powstały skoki narciarskie</h1>
+                <div onload="pobierzDane('jakpowstalyskoki')" id="tresc"></div>
+                <button onclick="pobierzDane('jakpowstalyskoki')">Klik</button>
+            </section>
+
+    </main>
+
+<footer>
+    Ski Jumping Polska &copy Piotr Tokarski 2021
+</footer>
 
 </body>
 </html>
