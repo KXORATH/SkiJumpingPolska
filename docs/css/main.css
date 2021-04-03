@@ -12,6 +12,11 @@ body
     color: #FEFFFE;
 }
 
+.text-body a
+{
+    color: #FF6663;
+}
+
 .fl-left{float: left}
 
 .fl-right{float: right}
@@ -216,10 +221,4 @@ hr
     background-color: #FE5F55;
     height: 2px;
     width: 60%;
-}
-
-#tresc
-{
-    height: 20px;
-    color: black;
 }
