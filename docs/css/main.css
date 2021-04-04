@@ -27,6 +27,12 @@ body
     margin: 100px auto;
 }
 
+.container2
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
 h1
 {
     text-transform: uppercase;
@@ -38,8 +44,8 @@ h1
 
 .row
 {
-    overflow: hidden;
     padding: 25px 25px 12px 25px;
+    text-align: center;
 }
 
 .card
@@ -98,7 +104,12 @@ h1
     transform: translate(-50%, -50%)
 }
 
-.date time span{display: block}
+.date time span
+{
+    display: block;
+    color: #2b2b2b;
+    font-weight: 600;
+}
 
 .date time span:first-child
 {
@@ -107,19 +118,12 @@ h1
     font-size: 250%
 }
 
-.date time span:last-child
-{
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-top: -10px
-}
-
 .card-cont
 {
     display: table-cell;
     width: 75%;
     font-size: 85%;
-    padding: 10px 10px 30px 50px
+    padding: 10px 10px 50px 50px
 }
 
 .card-cont h3
@@ -128,45 +132,21 @@ h1
     font-size: 130%
 }
 
-.row:last-child .card:last-of-type .card-cont h3
-{
-    text-decoration: line-through
-}
-
 .card-cont > div
 {
     display: table-row
 }
 
-.card-cont .even-date i,
-.card-cont .even-info i,
-.card-cont .even-date time,
-.card-cont .even-info p
-{
-    display: table-cell
-}
-
-.card-cont .even-date i,
-.card-cont .even-info i
-{
-    padding: 5% 5% 0 0
-}
-
-.card-cont .even-info p
-{
-    padding: 30px 50px 0 0
-}
-
 .card-cont .even-date time span
 {
-    display: block
+    display: block;
 }
 
 .card-cont a
 {
     display: block;
     text-decoration: none;
-    width: 80px;
+    width: 100px;
     height: 30px;
     background-color: #0B3954;
     color: #fff;
@@ -175,17 +155,7 @@ h1
     border-radius: 2px;
     position: absolute;
     right: 10px;
-    bottom: 10px
-}
-
-.row:last-child .card:first-child .card-cont a
-{
-    background-color: #BDD5EA;
-}
-
-.row:last-child .card:last-child .card-cont a
-{
-    background-color: #FF6663;
+    bottom: 10px;
 }
 
 @media screen and (max-width: 860px)
@@ -223,38 +193,54 @@ hr
     width: 60%;
 }
 
-.card-img-tiles {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    background-color: #fff;
-    z-index: 5
+.card2
+{
+    background-color: #ffffff;
+    color: #989898;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 12px -3px rgb(133 129 129 / 80%);
 }
 
-.card-img-tiles .main-img>img,
-.card-img-tiles .thumblist>img {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
+.card2:hover
+{
+    transition: .3s ease-in-out;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px 5px rgb(133 129 129);
 }
 
-.card-img-tiles .main-img {
-    width: 100%;
+.card-img-tiles
+{
+    height: 90%;
+    width: 90%;
 }
 
-.card-img-tiles .thumblist {
-    width: 33%;
+.btntile
+{
+    border-radius: 4px;
+    border: 2px #495867 solid;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    transition: .15s ease-in-out;
 }
 
-.card-img-tiles .thumblist>img {
-    margin-bottom: .75rem
+.btntile:hover
+{
+    background-color: #495867;
+    color: #FEFFFE;
+    text-decoration: none;
 }
 
-.card-img-tiles .thumblist>img:last-child {
-    margin-bottom: 0
+td img
+{
+    height: 25px;
 }
 
-.mb-grid-gutter {
-    margin-bottom: 30px !important;
+.information
+{
+    text-align: center;
 }

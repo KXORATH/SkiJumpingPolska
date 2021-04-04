@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
@@ -15,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,7 +45,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617393071181</updated>
       <workItem from="1617393072325" duration="106000" />
-      <workItem from="1617476019020" duration="8272000" />
+      <workItem from="1617476019020" duration="8337000" />
+      <workItem from="1617550178918" duration="10475000" />
     </task>
     <task id="LOCAL-00001" summary="Przerobienie na stronę">
       <created>1617393092367</created>
@@ -72,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617482885907</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodawanie do strony głównej">
+      <created>1617484426333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617484426333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +105,7 @@
     <MESSAGE value="Przerobienie na stronę" />
     <MESSAGE value="Dodanie biletów" />
     <MESSAGE value="Uzupełnienie strony głównej" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uzupełnienie strony głównej" />
+    <MESSAGE value="Dodawanie do strony głównej" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodawanie do strony głównej" />
   </component>
 </project>
