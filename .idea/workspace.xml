@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/skocznie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rankingips.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/Lab2_studia/formularze.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -49,6 +44,7 @@
       <workItem from="1617393072325" duration="106000" />
       <workItem from="1617476019020" duration="8337000" />
       <workItem from="1617550178918" duration="16763000" />
+      <workItem from="1617571155360" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="Przerobienie na stronę">
       <created>1617393092367</created>
@@ -99,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617562845608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1617571207286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617571207286</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +127,7 @@
     <MESSAGE value="Dodawanie do strony głównej" />
     <MESSAGE value="Zrobiona klasyfikacja pucharu świata" />
     <MESSAGE value="Dodanie kontaktu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie kontaktu" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
