@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/skocznie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rankingips.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skocznie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/skocznie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,8 @@
       <updated>1617393071181</updated>
       <workItem from="1617393072325" duration="106000" />
       <workItem from="1617476019020" duration="8337000" />
-      <workItem from="1617550178918" duration="16763000" />
+      <workItem from="1617550178918" duration="17390000" />
+      <workItem from="1618234257709" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="Przerobienie na stronę">
       <created>1617393092367</created>
@@ -99,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617562845608</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Koniec pracy na 04.04.2021">
+      <created>1617569945139</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617569945139</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +128,7 @@
     <MESSAGE value="Dodawanie do strony głównej" />
     <MESSAGE value="Zrobiona klasyfikacja pucharu świata" />
     <MESSAGE value="Dodanie kontaktu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie kontaktu" />
+    <MESSAGE value="Koniec pracy na 04.04.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Koniec pracy na 04.04.2021" />
   </component>
 </project>
