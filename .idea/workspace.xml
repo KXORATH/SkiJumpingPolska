@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="Skocznie dalej">
-      <change afterPath="$PROJECT_DIR$/docs/najlepsi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/rankingicoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingicoc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/rankingifc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingifc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/rankingips.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/skocznie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/skocznie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <workItem from="1617476019020" duration="8337000" />
       <workItem from="1617550178918" duration="16763000" />
       <workItem from="1618294837628" duration="2698000" />
-      <workItem from="1618389513266" duration="4541000" />
+      <workItem from="1618389513266" duration="6770000" />
     </task>
     <task id="LOCAL-00001" summary="Przerobienie na stronę">
       <created>1617393092367</created>
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618393092399</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Dodanie plików z zakładkami">
+      <created>1618394117633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618394117633</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +172,8 @@
     <MESSAGE value="Skocznie dalej" />
     <MESSAGE value="Skończone skocznie" />
     <MESSAGE value="Dodanie rankingów" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie rankingów" />
+    <MESSAGE value="Doda" />
+    <MESSAGE value="Dodanie plików z zakładkami" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie plików z zakładkami" />
   </component>
 </project>
