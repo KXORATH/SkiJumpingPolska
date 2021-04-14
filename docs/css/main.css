@@ -400,3 +400,19 @@ td img
     border: 3px #495867 solid;
     border-radius: 7px;
 }
+
+.articlenews img
+ {
+    border-radius: 7px;
+ }
+
+.read
+{
+    color: #FF6663;
+}
+
+.read:hover
+{
+    cursor: pointer;
+    transform: scale(0.1);
+}
