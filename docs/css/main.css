@@ -394,3 +394,9 @@ td img
     background: linear-gradient(transparent, #0B3954);
     border-radius: 6px;
 }
+
+.articlenews
+{
+    border: 3px #495867 solid;
+    border-radius: 7px;
+}

@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="Skocznie dalej">
-      <change beforePath="$PROJECT_DIR$/.idea/SkiJumpingPolska.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SkiJumpingPolska.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/aktualnosci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aktualnosci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/generator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt.html" afterDir="false" />
+    <list default="true" id="bb5127d3-aed4-4705-8869-572458de91e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/docs/najlepsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/najlepsi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rankingicoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingicoc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rankingifc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingifc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/rankingips.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +46,7 @@
       <workItem from="1617550178918" duration="16763000" />
       <workItem from="1618294837628" duration="2698000" />
       <workItem from="1618389513266" duration="7468000" />
-      <workItem from="1618401820696" duration="16465000" />
+      <workItem from="1618401820696" duration="17322000" />
     </task>
     <task id="LOCAL-00001" summary="Przerobienie na stronę">
       <created>1617393092367</created>
@@ -156,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618396665456</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Dodanie obrazów z zawodnikami">
+      <created>1618423965770</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618423965770</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edycja tytułów i linków">
+      <created>1618423990324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618423990324</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Zakończenie strony ze skoczkami">
+      <created>1618424002377</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618424002377</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +200,9 @@
     <MESSAGE value="Doda" />
     <MESSAGE value="Dodanie plików z zakładkami" />
     <MESSAGE value="Poprawki w linkowaniu oraz skończenie rankingów" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawki w linkowaniu oraz skończenie rankingów" />
+    <MESSAGE value="Dodanie obrazów z zawodnikami" />
+    <MESSAGE value="Edycja tytułów i linków" />
+    <MESSAGE value="Zakończenie strony ze skoczkami" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zakończenie strony ze skoczkami" />
   </component>
 </project>
