@@ -399,6 +399,8 @@ td img
 {
     border: 3px #495867 solid;
     border-radius: 7px;
+    background-color: white;
+    margin-top: 20px;
 }
 
 .articlenews img
@@ -415,4 +417,13 @@ td img
 {
     cursor: pointer;
     transform: scale(0.1);
+}
+
+@media (max-width: 700px) {
+
+    .articlenews img
+    {
+        max-height: 225px;
+        max-width: 360px;
+    }
 }
