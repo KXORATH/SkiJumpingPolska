@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Po teście połączenia po reinstalacji Webstorma">
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Poprawa błędów">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/najlepsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/najlepsi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/Lab4" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +47,8 @@
       <updated>1618486724216</updated>
       <workItem from="1618486726179" duration="675000" />
       <workItem from="1618490676392" duration="885000" />
-      <workItem from="1618566529821" duration="13000" />
+      <workItem from="1618566529821" duration="73000" />
+      <workItem from="1618575199330" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618487337660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Poprawa błędów">
+      <created>1618566554328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618566554328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test połączenia po reinstalacji" />
     <MESSAGE value="Po teście połączenia po reinstalacji Webstorma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Po teście połączenia po reinstalacji Webstorma" />
+    <MESSAGE value="Poprawa błędów" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawa błędów" />
   </component>
 </project>
