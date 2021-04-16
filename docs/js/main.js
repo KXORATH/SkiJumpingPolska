@@ -104,3 +104,62 @@ function czytaj3()
     document.getElementById('article3').innerHTML = tresc;
 
 }
+
+//GENERATOR:
+
+function dodajZadanie()
+{ var item = {};
+    item.nazwa = document.getElementById('nazwa').value;
+    item.cena = document.getElementById('cena').value;
+    item.kolor = document.getElementById('kolor').value;
+    item.liczba = document.getElementById('liczba').value;
+    var lista = JSON.parse(localStorage.getItem('lista'));
+    if (lista===null) lista=[];
+    lista.push(item);
+    localStorage.setItem('lista', JSON.stringify(lista));
+}
+function pokazListe()
+{ var lista = JSON.parse(localStorage.getItem('lista'));
+    var el=document.getElementById('tabela');
+    var str="<h2>Twój koszyk:</h2><br><table><tbody><tr><td>Nazwa</td><td>Cena</td><td>Kolor</td><td>Liczba sztuk</td></tr>";
+    if (lista===null) el.innerHTML=str+"<p>Pusta lista zadań</p>";
+    else {
+        for(i=0;i<lista.length;i++)
+        {
+            str+="<tr><td>"+lista[i].nazwa+"</td><td>"+lista[i].cena+"</td><td>"+lista[i].kolor+"</td><td>"+lista[i].liczba+"</td>";
+            str+="<td><button class='usun' onclick='usunZadanie("+i+")' >usuń</button></td>";
+            str+="<td><button class='edycja' onclick='edycja("+i+")' >edycja</button></td></tr>";
+        }
+    }
+    str+="</tbody></table>";
+    el.innerHTML=str;
+}
+function usunListe()
+{
+    localStorage.removeItem('lista');
+    //zaktualizuj widok na stronie
+    pokazListe();
+}
+function usunZadanie(i)
+{ var lista = JSON.parse(localStorage.getItem('lista'));
+    if (confirm("Usunąć produkt?")) lista.splice(i,1);
+    localStorage.setItem('lista', JSON.stringify(lista));
+    pokazListe();
+}
+
+function edycja(i)
+{
+    var lista = JSON.parse(localStorage.getItem('lista'));
+    var lista2 = JSON.parse(localStorage.getItem('lista'));
+    lista[i].nazwa = prompt("Podaj nazwę:",lista2[i].nazwa);
+    lista[i].cena = prompt("Podaj cenę:",lista2[i].cena);
+    lista[i].kolor = prompt("Podaj kolor:",lista2[i].kolor);
+    lista[i].liczba = prompt("Podaj liczbę sztuk:",lista2[i].liczba);
+    if(lista[i].nazwa===null || lista[i].nazwa==="") lista[i].nazwa = lista2[i].nazwa;
+    if(lista[i].cena===null || lista[i].cena==="") lista[i].cena = lista2[i].cena;
+    if(lista[i].kolor===null || lista[i].kolor==="") lista[i].kolor = lista2[i].kolor;
+    if(lista[i].liczba===null || lista[i].liczba==="") lista[i].liczba = lista2[i].liczba;
+    localStorage.setItem('lista', JSON.stringify(lista));
+    pokazListe();
+
+}

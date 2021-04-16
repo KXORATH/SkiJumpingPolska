@@ -66,6 +66,31 @@
 
 </nav>
 <main>
+    <section class="container">
+    <h1>Stwórz swojego zawodnika</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <table class="table">
+                        <tbody>
+                            <tr><td>Imię i nazwisko:</td> <td><input type="text" id="nazwa"></td></tr>
+                            <tr><td>Główny sponsor:</td> <td><input type="number" id="cena"></td></tr>
+                            <tr><td>Kolor kombinezonu:</td> <td><input type="color" id="kolor"></td></tr>
+                            <tr><td>Firma nart:</td> <td><input type="number" id="liczba"></td></tr>
+                        </tbody>
+                    </table>
+
+                    <button type="button" class="btnnav" onclick="dodajZadanie()">Zapisz zawodnika</button>
+                    <button type="button" class="btnnav" onclick="pokazListe()">Wyświetl stworzonych zawodników</button>
+                    <button type="button" class="btnnav" onclick="usunListe()">Usuń wszystkich zawodników</button>
+
+                </form>
+            </div>
+            <div class="col-md-6" id="tabela">
+                TEST
+            </div>
+        </div>
+    </section>
 </main>
 </body>
 </html>
