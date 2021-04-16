@@ -128,15 +128,71 @@
             </div>
         </div>
     </section>
-    <section class="container" id="zawodnicy">
-        <div class="card border-0 transform-on-hover">
-                <img src="img/skoczek/cialoCzerwony.png" alt="Card Image" class="card-img-top img-sizing">
-                <img src="img/skoczek/nartyBWT.png" alt="Card Image" class="card-img-top img-sizing">
-            <div class="card-body">
-                <h6>Maren Lundby</h6>
+</main>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>Imię i nazwisko:</td>
+                            <td><input type="text" id="nazwa"></td>
+                        </tr>
+                        <tr>
+                            <td>Główny sponsor:</td>
+                            <td>
+                                <select id="sponsor">
+                                    <option>Atlas</option>
+                                    <option>Blachotrapez</option>
+                                    <option>Grupa Azoty</option>
+                                    <option>Milka</option>
+                                    <option>Szubryt</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kolor kombinezonu:</td>
+                            <td>
+                                <select id="kolor">
+                                    <option>Czarny</option>
+                                    <option>Brązowy</option>
+                                    <option>Czerwony</option>
+                                    <option>Niebieski</option>
+                                    <option>Pomarańczowy</option>
+                                    <option>Różowy</option>
+                                    <option>Zielony</option>
+                                    <option>Żółty</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Firma nart:</td>
+                            <td>
+                                <select id="narty">
+                                    <option>Fisher</option>
+                                    <option>SlatNar</option>
+                                    <option>BWT</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
-    </section>
-</main>
+    </div>
+</div>
 </body>
 </html>

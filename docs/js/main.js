@@ -136,7 +136,7 @@ function pokazListe()
             str+="<div class='card-body'>";
             str+="<h6>"+lista[i].nazwa+"</h6>";
             str+="<button class='btnsend mr-1' type='button' onclick='usunZadanie("+i+")' >Usuń</button>";
-            str+="<button class='btnsend' type='button' onclick='edycja("+i+")' >Edytuj</button>";
+            str+="<button class='btnsend' type='button' onclick='edycja("+i+")'>Edytuj</button>";
             str+="</div>";
         }
     }
@@ -150,7 +150,7 @@ function usunListe()
 }
 function usunZadanie(i)
 { var lista = JSON.parse(localStorage.getItem('lista'));
-    if (confirm("Usunąć produkt?")) lista.splice(i,1);
+    if (confirm("Usunąć zawodnika?")) lista.splice(i,1);
     localStorage.setItem('lista', JSON.stringify(lista));
     pokazListe();
 }
