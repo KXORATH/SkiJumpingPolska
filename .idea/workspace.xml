@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Zmiana tabelki">
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Przygotowanie głównego wyboru">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/generator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialobrazowy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialorozowy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialozolty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
       <workItem from="1618490676392" duration="885000" />
       <workItem from="1618566529821" duration="73000" />
       <workItem from="1618575199330" duration="617000" />
-      <workItem from="1618580575520" duration="5844000" />
+      <workItem from="1618580575520" duration="7128000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -102,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618603995696</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Przygotowanie głównego wyboru">
+      <created>1618607721990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618607721990</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +139,7 @@
     <MESSAGE value="Po teście" />
     <MESSAGE value="Początek pracy" />
     <MESSAGE value="Zmiana tabelki" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zmiana tabelki" />
+    <MESSAGE value="Przygotowanie głównego wyboru" />
+    <option name="LAST_COMMIT_MESSAGE" value="Przygotowanie głównego wyboru" />
   </component>
 </project>

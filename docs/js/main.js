@@ -117,6 +117,10 @@ function dodajZadanie()
     if (lista===null) lista=[];
     lista.push(item);
     localStorage.setItem('lista', JSON.stringify(lista));
+
+    var tresc = "<img class='static-image' src='img/skoczek/cialo"+document.getElementById('kolor').value+".png'>";
+    tresc += "<img class='static-image' src='img/skoczek/narty"+document.getElementById('narty').value+".png'>";
+    document.getElementById('tabela').innerHTML = tresc;
 }
 function pokazListe()
 { var lista = JSON.parse(localStorage.getItem('lista'));

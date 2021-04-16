@@ -433,6 +433,8 @@ td img
 .static-image
 {
     position: absolute;
+    max-height: 400px;
+    max-width: 400px;
 }
 
 @media (max-width: 1200px)
