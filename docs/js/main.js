@@ -121,7 +121,7 @@ function dodajZadanie()
 function pokazListe()
 { var lista = JSON.parse(localStorage.getItem('lista'));
     var el=document.getElementById('tabela');
-    var str="<h2>Twój koszyk:</h2><br><table><tbody><tr><td>Nazwa</td><td>Cena</td><td>Kolor</td><td>Liczba sztuk</td></tr>";
+    var str="<h2>Twoi zawodnicy:</h2><br><table class='table'><thead><tr><th>Nazwa</th><th>Cena</th><th>Kolor</th><th>Liczba sztuk</th></tr></thead><tbody>";
     if (lista===null) el.innerHTML=str+"<p>Pusta lista zadań</p>";
     else {
         for(i=0;i<lista.length;i++)
