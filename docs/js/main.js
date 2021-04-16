@@ -120,22 +120,26 @@ function dodajZadanie()
 
     var tresc = "<img class='static-image' src='img/skoczek/cialo"+document.getElementById('kolor').value+".png'>";
     tresc += "<img class='static-image' src='img/skoczek/narty"+document.getElementById('narty').value+".png'>";
-    document.getElementById('tabela').innerHTML = tresc;
+    document.getElementById('bok').innerHTML = tresc;
 }
 function pokazListe()
 { var lista = JSON.parse(localStorage.getItem('lista'));
-    var el=document.getElementById('tabela');
-    var str="<h2>Twoi zawodnicy:</h2><br><table class='table'><thead><tr><th>Nazwa</th><th>sponsor</th><th>Kolor</th><th>narty</th></tr></thead><tbody>";
-    if (lista===null) el.innerHTML=str+"<p>Pusta lista zadań</p>";
+    var el=document.getElementById('zawodnicy');
+    var str = "Twoja lista zawodników: <br><br>";
+    if (lista===null) el.innerHTML=str+"<p>Pusta lista zawodników</p>";
     else {
         for(i=0;i<lista.length;i++)
         {
-            str+="<tr><td>"+lista[i].nazwa+"</td><td>"+lista[i].sponsor+"</td><td>"+lista[i].kolor+"</td><td>"+lista[i].narty+"</td>";
-            str+="<td><button class='usun' onclick='usunZadanie("+i+")' >usuń</button></td>";
-            str+="<td><button class='edycja' onclick='edycja("+i+")' >edycja</button></td></tr>";
+            str+="<div class='card border-0 transform on hover'>";
+            str+="<img src='img/skoczek/cialo"+lista[i].kolor+".png' class='card-img-top img-sizing'>";
+            str+="<img src='img/skoczek/narty"+lista[i].narty+".png' class='card-img-top img-sizing'>";
+            str+="<div class='card-body'>";
+            str+="<h6>"+lista[i].nazwa+"</h6>";
+            str+="<button class='btnsend mr-1' type='button' onclick='usunZadanie("+i+")' >Usuń</button>";
+            str+="<button class='btnsend' type='button' onclick='edycja("+i+")' >Edytuj</button>";
+            str+="</div>";
         }
     }
-    str+="</tbody></table>";
     el.innerHTML=str;
 }
 function usunListe()

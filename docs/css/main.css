@@ -373,6 +373,12 @@ td img
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
+.img-sizing
+{
+    max-width: 250px;
+    max-height: 250px;
+}
+
 @media (min-width: 576px) {
 
     .gallery-block .transform-on-hover:hover {

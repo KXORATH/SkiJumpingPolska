@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Przygotowanie głównego wyboru">
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Podgląd skoczka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/generator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialobrazowy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialorozowy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialozolty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/skoczek/cialopomaranczowy.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
       <workItem from="1618490676392" duration="885000" />
       <workItem from="1618566529821" duration="73000" />
       <workItem from="1618575199330" duration="617000" />
-      <workItem from="1618580575520" duration="7128000" />
+      <workItem from="1618580575520" duration="9352000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618607721990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Podgląd skoczka">
+      <created>1618608869367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618608869367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +145,7 @@
     <MESSAGE value="Początek pracy" />
     <MESSAGE value="Zmiana tabelki" />
     <MESSAGE value="Przygotowanie głównego wyboru" />
-    <option name="LAST_COMMIT_MESSAGE" value="Przygotowanie głównego wyboru" />
+    <MESSAGE value="Podgląd skoczka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Podgląd skoczka" />
   </component>
 </project>
