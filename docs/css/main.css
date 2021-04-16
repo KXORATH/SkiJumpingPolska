@@ -429,3 +429,17 @@ td img
         max-width: 360px;
     }
 }
+
+.static-image
+{
+    position: absolute;
+}
+
+@media (max-width: 1200px)
+{
+    .static-image
+    {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}

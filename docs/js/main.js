@@ -110,9 +110,9 @@ function czytaj3()
 function dodajZadanie()
 { var item = {};
     item.nazwa = document.getElementById('nazwa').value;
-    item.cena = document.getElementById('cena').value;
+    item.sponsor = document.getElementById('sponsor').value;
     item.kolor = document.getElementById('kolor').value;
-    item.liczba = document.getElementById('liczba').value;
+    item.narty = document.getElementById('narty').value;
     var lista = JSON.parse(localStorage.getItem('lista'));
     if (lista===null) lista=[];
     lista.push(item);
@@ -121,12 +121,12 @@ function dodajZadanie()
 function pokazListe()
 { var lista = JSON.parse(localStorage.getItem('lista'));
     var el=document.getElementById('tabela');
-    var str="<h2>Twoi zawodnicy:</h2><br><table class='table'><thead><tr><th>Nazwa</th><th>Cena</th><th>Kolor</th><th>Liczba sztuk</th></tr></thead><tbody>";
+    var str="<h2>Twoi zawodnicy:</h2><br><table class='table'><thead><tr><th>Nazwa</th><th>sponsor</th><th>Kolor</th><th>narty</th></tr></thead><tbody>";
     if (lista===null) el.innerHTML=str+"<p>Pusta lista zadań</p>";
     else {
         for(i=0;i<lista.length;i++)
         {
-            str+="<tr><td>"+lista[i].nazwa+"</td><td>"+lista[i].cena+"</td><td>"+lista[i].kolor+"</td><td>"+lista[i].liczba+"</td>";
+            str+="<tr><td>"+lista[i].nazwa+"</td><td>"+lista[i].sponsor+"</td><td>"+lista[i].kolor+"</td><td>"+lista[i].narty+"</td>";
             str+="<td><button class='usun' onclick='usunZadanie("+i+")' >usuń</button></td>";
             str+="<td><button class='edycja' onclick='edycja("+i+")' >edycja</button></td></tr>";
         }
@@ -152,13 +152,13 @@ function edycja(i)
     var lista = JSON.parse(localStorage.getItem('lista'));
     var lista2 = JSON.parse(localStorage.getItem('lista'));
     lista[i].nazwa = prompt("Podaj nazwę:",lista2[i].nazwa);
-    lista[i].cena = prompt("Podaj cenę:",lista2[i].cena);
+    lista[i].sponsor = prompt("Podaj cenę:",lista2[i].sponsor);
     lista[i].kolor = prompt("Podaj kolor:",lista2[i].kolor);
-    lista[i].liczba = prompt("Podaj liczbę sztuk:",lista2[i].liczba);
+    lista[i].narty = prompt("Podaj liczbę sztuk:",lista2[i].narty);
     if(lista[i].nazwa===null || lista[i].nazwa==="") lista[i].nazwa = lista2[i].nazwa;
-    if(lista[i].cena===null || lista[i].cena==="") lista[i].cena = lista2[i].cena;
+    if(lista[i].sponsor===null || lista[i].sponsor==="") lista[i].sponsor = lista2[i].sponsor;
     if(lista[i].kolor===null || lista[i].kolor==="") lista[i].kolor = lista2[i].kolor;
-    if(lista[i].liczba===null || lista[i].liczba==="") lista[i].liczba = lista2[i].liczba;
+    if(lista[i].narty===null || lista[i].narty==="") lista[i].narty = lista2[i].narty;
     localStorage.setItem('lista', JSON.stringify(lista));
     pokazListe();
 
