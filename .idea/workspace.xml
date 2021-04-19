@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Nowe zmiany">
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Koniec pracy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/aktualnosci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/aktualnosci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/generator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/najlepsi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/najlepsi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rankingicoc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingicoc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rankingifc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingifc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/rankingips.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/rankingips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/skocznie.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/skocznie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
       <workItem from="1618566529821" duration="73000" />
       <workItem from="1618575199330" duration="617000" />
       <workItem from="1618580575520" duration="13035000" />
-      <workItem from="1618831162472" duration="18051000" />
+      <workItem from="1618831162472" duration="18521000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -146,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618850850855</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Koniec pracy">
+      <created>1618853863833</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618853863833</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,9 +188,9 @@
     <MESSAGE value="Przygotowanie głównego wyboru" />
     <MESSAGE value="Podgląd skoczka" />
     <MESSAGE value="Działająca lista" />
-    <MESSAGE value="Koniec pracy" />
     <MESSAGE value="Dodanie mechaniki generatora skoczka" />
     <MESSAGE value="Nowe zmiany" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nowe zmiany" />
+    <MESSAGE value="Koniec pracy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Koniec pracy" />
   </component>
 </project>
