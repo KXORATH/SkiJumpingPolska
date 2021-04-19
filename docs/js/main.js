@@ -25,7 +25,7 @@ function validateForm() {
         document.querySelector('.status').innerHTML = "Pole z wiadomością nie może być puste!";
         return false;
     }
-    document.querySelector('.status').innerHTML = "Wysyłanie...";
+    document.querySelector('.status').innerHTML = "Wysłano &#128522;";
 }
 
 function czytaj1()
@@ -108,18 +108,27 @@ function czytaj3()
 //GENERATOR:
 
 function dodajZadanie()
-{ var item = {};
-    item.nazwa = document.getElementById('nazwa').value;
-    item.sponsor = document.getElementById('sponsor').value;
-    item.kolor = document.getElementById('kolor').value;
-    item.narty = document.getElementById('narty').value;
-    var lista = JSON.parse(localStorage.getItem('lista'));
-    if (lista===null) lista=[];
-    lista.push(item);
-    localStorage.setItem('lista', JSON.stringify(lista));
+{
+    var nazwa = document.getElementById('nazwa').value;
+    if (nazwa==='') alert('Nie podano nazwy skoczka');
+    else {
+        var item = {};
+        item.nazwa = document.getElementById('nazwa').value;
+        item.sponsor = document.getElementById('sponsor').value;
+        item.kolor = document.getElementById('kolor').value;
+        item.narty = document.getElementById('narty').value;
+        var lista = JSON.parse(localStorage.getItem('lista'));
+        if (lista === null) lista = [];
+        lista.push(item);
+        localStorage.setItem('lista', JSON.stringify(lista));
 
-    var tresc = "<img class='static-image' src='img/skoczek/"+document.getElementById('narty').value+document.getElementById('kolor').value+".png'>";
-    document.getElementById('bok').innerHTML = tresc;
+        var tresc = "<img class='static-image' src='img/skoczek/" + document.getElementById('narty').value + document.getElementById('kolor').value + ".png'>";
+        document.getElementById('bok').innerHTML = tresc;
+        document.getElementById('nazwa').value = '';
+        document.getElementById('sponsor').value = 'Atlas';
+        document.getElementById('kolor').value = 'Czarny';
+        document.getElementById('narty').value = 'Fisher';
+    }
 }
 function pokazListe()
 {
@@ -135,7 +144,8 @@ function pokazListe()
             str+="<div class='card border-0 transform on hover' style='margin-bottom: 30px;'>";
             str+="<img src='img/skoczek/"+lista[i].narty+lista[i].kolor+".png' class='card-img-top img-sizing'>";
             str+="<div class='card-body'>";
-            str+="<h6>"+lista[i].nazwa+"</h6>";
+            str+="<h5>"+lista[i].nazwa+"</h5>";
+            str+="<h6>"+lista[i].sponsor+"</h6>";
             str+="<button class='btnsend mr-1' type='button' onclick='usunZadanie("+i+")' >Usuń</button>";
             str+="<button class='btnsend' type='button' onclick='edycja("+i+")'>Edytuj</button>";
             str+="</div></div></div>";
@@ -148,7 +158,8 @@ function usunListe()
 {
     localStorage.removeItem('lista');
     //zaktualizuj widok na stronie
-    pokazListe();
+    $('#bok').html('');
+    $('#zawodnicy').html('');
 }
 function usunZadanie(i)
 { var lista = JSON.parse(localStorage.getItem('lista'));
@@ -176,34 +187,20 @@ function edycja(i)
 function zapisz(i)
 {
     var lista = JSON.parse(localStorage.getItem('lista'));
-    lista[i].nazwa = document.getElementById('nazwae').value;
-    lista[i].sponsor = document.getElementById('sponsore').value;
-    lista[i].kolor = document.getElementById('kolore').value;
-    lista[i].narty = document.getElementById('nartye').value;
-    localStorage.setItem('lista', JSON.stringify(lista));
-    pokazListe();
-    $('#modal1').modal('hide');
+    if (document.getElementById('nazwae').value==='') alert('Nie podano nazwy skoczka')
+    else {
+        lista[i].nazwa = document.getElementById('nazwae').value;
+        lista[i].sponsor = document.getElementById('sponsore').value;
+        lista[i].kolor = document.getElementById('kolore').value;
+        lista[i].narty = document.getElementById('nartye').value;
+        localStorage.setItem('lista', JSON.stringify(lista));
+        pokazListe();
+        $('#modal1').modal('hide');
+    }
 }
 
 function zamknij()
 {
     $('#modal1').modal('hide');
 }
-
-/*function edycja(i)
-{
-    var lista = JSON.parse(localStorage.getItem('lista'));
-    var lista2 = JSON.parse(localStorage.getItem('lista'));
-    lista[i].nazwa = prompt("Podaj nazwę:",lista2[i].nazwa);
-    lista[i].sponsor = prompt("Podaj cenę:",lista2[i].sponsor);
-    lista[i].kolor = prompt("Podaj kolor:",lista2[i].kolor);
-    lista[i].narty = prompt("Podaj liczbę sztuk:",lista2[i].narty);
-    if(lista[i].nazwa===null || lista[i].nazwa==="") lista[i].nazwa = lista2[i].nazwa;
-    if(lista[i].sponsor===null || lista[i].sponsor==="") lista[i].sponsor = lista2[i].sponsor;
-    if(lista[i].kolor===null || lista[i].kolor==="") lista[i].kolor = lista2[i].kolor;
-    if(lista[i].narty===null || lista[i].narty==="") lista[i].narty = lista2[i].narty;
-    localStorage.setItem('lista', JSON.stringify(lista));
-    pokazListe();
-
-}*/
 
