@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Poprawa legendy">
-      <change beforePath="$PROJECT_DIR$/docs/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/main.js" afterDir="false" />
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Poprawa przy usuwaniu">
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <workItem from="1618575199330" duration="617000" />
       <workItem from="1618580575520" duration="13035000" />
       <workItem from="1618831162472" duration="19214000" />
-      <workItem from="1618857631340" duration="954000" />
+      <workItem from="1618857631340" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618858069829</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Poprawa przy usuwaniu">
+      <created>1618858620268</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1618858620268</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +222,7 @@
     <MESSAGE value="Dodanie ico faviconu" />
     <MESSAGE value="Dodanie legendy" />
     <MESSAGE value="Poprawa legendy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawa legendy" />
+    <MESSAGE value="Poprawa przy usuwaniu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poprawa przy usuwaniu" />
   </component>
 </project>
