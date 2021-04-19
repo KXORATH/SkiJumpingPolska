@@ -158,6 +158,39 @@ function usunZadanie(i)
 function edycja(i)
 {
     var lista = JSON.parse(localStorage.getItem('lista'));
+    $('#modaltitle1').html('Edytujesz zawodnika '+lista[i].nazwa);
+    $('#nazwae').attr('value',lista[i].nazwa);
+    $('#sponsore').val(lista[i].sponsor);
+    $('#kolore').val(lista[i].kolor);
+    $('#nartye').val(lista[i].narty);
+    $('#modalfooter1').html
+        ("<button type='button' id='closebutton' onclick='zamknij()' >Anuluj</button>" +
+        "<button type='button' id='savebutton' onclick='zapisz("+i+")' >Zapisz zmiany</button>");
+    $('#savebutton').addClass('btnsend');
+    $('#closebutton').addClass('btncancel');
+    $('#modal1').modal('show');
+}
+
+function zapisz(i)
+{
+    var lista = JSON.parse(localStorage.getItem('lista'));
+    lista[i].nazwa = document.getElementById('nazwae').value;
+    lista[i].sponsor = document.getElementById('sponsore').value;
+    lista[i].kolor = document.getElementById('kolore').value;
+    lista[i].narty = document.getElementById('nartye').value;
+    localStorage.setItem('lista', JSON.stringify(lista));
+    pokazListe();
+    $('#modal1').modal('hide');
+}
+
+function zamknij()
+{
+    $('#modal1').modal('hide');
+}
+
+/*function edycja(i)
+{
+    var lista = JSON.parse(localStorage.getItem('lista'));
     var lista2 = JSON.parse(localStorage.getItem('lista'));
     lista[i].nazwa = prompt("Podaj nazwę:",lista2[i].nazwa);
     lista[i].sponsor = prompt("Podaj cenę:",lista2[i].sponsor);
@@ -170,4 +203,5 @@ function edycja(i)
     localStorage.setItem('lista', JSON.stringify(lista));
     pokazListe();
 
-}
+}*/
+

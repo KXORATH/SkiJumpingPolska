@@ -280,6 +280,25 @@ td img
     cursor: pointer;
 }
 
+.btncancel
+{
+    border-radius: 4px;
+    border: 2px #495867 solid;
+    padding: 6px;
+    background-color: #E0FF4F;
+    text-decoration: none;
+    color: black;
+    transition: .15s ease-in-out;
+}
+
+.btncancel:hover
+{
+    background-color: #495867;
+    color: #FEFFFE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .btnmore
 {
     border-radius: 4px;
@@ -310,6 +329,7 @@ td img
     color: black;
     transition: .15s ease-in-out;
     width: 100%;
+    font-weight: 500;
 }
 
 .btnnav a
