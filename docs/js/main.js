@@ -156,10 +156,13 @@ function pokazListe()
 }
 function usunListe()
 {
-    localStorage.removeItem('lista');
-    //zaktualizuj widok na stronie
-    $('#bok').html('');
-    $('#zawodnicy').html('');
+    if (confirm("Usunąć listę zawodników?"))
+    {
+        localStorage.removeItem('lista');
+        //zaktualizuj widok na stronie
+        $('#bok').html('');
+        $('#zawodnicy').html('');
+    }
 }
 function usunZadanie(i)
 { var lista = JSON.parse(localStorage.getItem('lista'));
