@@ -118,28 +118,30 @@ function dodajZadanie()
     lista.push(item);
     localStorage.setItem('lista', JSON.stringify(lista));
 
-    var tresc = "<img class='static-image' src='img/skoczek/cialo"+document.getElementById('kolor').value+".png'>";
-    tresc += "<img class='static-image' src='img/skoczek/narty"+document.getElementById('narty').value+".png'>";
+    var tresc = "<img class='static-image' src='img/skoczek/"+document.getElementById('narty').value+document.getElementById('kolor').value+".png'>";
     document.getElementById('bok').innerHTML = tresc;
 }
 function pokazListe()
-{ var lista = JSON.parse(localStorage.getItem('lista'));
+{
+    $('card').removeAttr('display');
+    var lista = JSON.parse(localStorage.getItem('lista'));
     var el=document.getElementById('zawodnicy');
-    var str = "Twoja lista zawodników: <br><br>";
+    var str = "<h1>Twoja lista zawodników: </h1><div class='row'>";
     if (lista===null) el.innerHTML=str+"<p>Pusta lista zawodników</p>";
     else {
         for(i=0;i<lista.length;i++)
         {
-            str+="<div class='card border-0 transform on hover'>";
-            str+="<img src='img/skoczek/cialo"+lista[i].kolor+".png' class='card-img-top img-sizing'>";
-            str+="<img src='img/skoczek/narty"+lista[i].narty+".png' class='card-img-top img-sizing'>";
+            str+="<div class='col-md-6 col-lg-4 mb-4'>";
+            str+="<div class='card border-0 transform on hover' style='margin-bottom: 30px;'>";
+            str+="<img src='img/skoczek/"+lista[i].narty+lista[i].kolor+".png' class='card-img-top img-sizing'>";
             str+="<div class='card-body'>";
             str+="<h6>"+lista[i].nazwa+"</h6>";
             str+="<button class='btnsend mr-1' type='button' onclick='usunZadanie("+i+")' >Usuń</button>";
             str+="<button class='btnsend' type='button' onclick='edycja("+i+")'>Edytuj</button>";
-            str+="</div>";
+            str+="</div></div></div>";
         }
     }
+    str+='</div>';
     el.innerHTML=str;
 }
 function usunListe()

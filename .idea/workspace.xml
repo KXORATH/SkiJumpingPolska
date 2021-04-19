@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Koniec pracy">
-      <change beforePath="$PROJECT_DIR$/.idea/SkiJumpingPolska.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SkiJumpingPolska.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="78e6fec3-a0b8-4d49-8638-b5fd9c93da57" name="Default Changelist" comment="Dodanie mechaniki generatora skoczka">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/generator.html" afterDir="false" />
@@ -55,7 +53,7 @@
       <workItem from="1618566529821" duration="73000" />
       <workItem from="1618575199330" duration="617000" />
       <workItem from="1618580575520" duration="13035000" />
-      <workItem from="1618831162472" duration="8968000" />
+      <workItem from="1618831162472" duration="15396000" />
     </task>
     <task id="LOCAL-00001" summary="Test połączenia po reinstalacji">
       <created>1618486891063</created>
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618614689999</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Dodanie mechaniki generatora skoczka">
+      <created>1618842461832</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618842461832</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +169,7 @@
     <MESSAGE value="Podgląd skoczka" />
     <MESSAGE value="Działająca lista" />
     <MESSAGE value="Koniec pracy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Koniec pracy" />
+    <MESSAGE value="Dodanie mechaniki generatora skoczka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie mechaniki generatora skoczka" />
   </component>
 </project>

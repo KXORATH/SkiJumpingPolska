@@ -285,16 +285,15 @@ td img
     border-radius: 4px;
     border: 2px #495867 solid;
     padding: 6px;
-    background-color: #E0FF4F;
+    background-color: #FF6663;
     text-decoration: none;
-    color: black;
+    color: #FEFFFE;
     transition: .15s ease-in-out;
 }
 
 .btncancel:hover
 {
     background-color: #495867;
-    color: #FEFFFE;
     text-decoration: none;
     cursor: pointer;
 }
@@ -458,7 +457,6 @@ td img
 
 .static-image
 {
-    position: absolute;
     max-height: 400px;
     max-width: 400px;
 }
@@ -470,4 +468,9 @@ td img
         max-height: 300px;
         max-width: 300px;
     }
+}
+
+#bok
+{
+    position: relative;
 }
