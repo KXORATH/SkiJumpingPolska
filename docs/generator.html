@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SJP - Generator Skoczka</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/png" href="img/logo.ico" />
+    <link rel="icon" type="image/png" href="img/logo.ico"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 
 </head>
@@ -20,10 +25,12 @@
 <nav class="navbar sticky-top navsettings navbar-dark navbar-expand-xl">
 
     <a class="navbar-brand mr-md-5" href="index.html">
-        <img src="img/logo.svg" width="30" height="30" alt="" class="d-inline-block mr-sm-1 ms-sm-1 align-bottom"> Ski Jumping Polska
+        <img src="img/logo.svg" width="30" height="30" alt="" class="d-inline-block mr-sm-1 ms-sm-1 align-bottom"> Ski
+        Jumping Polska
     </a>
 
-    <button type="button" class="navbar-toggler mr-2 me-sm-3" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu"
+    <button type="button" class="navbar-toggler mr-2 me-sm-3" data-toggle="collapse" data-target="#mainmenu"
+            aria-controls="mainmenu"
             aria-expanded="false" aria-label="Nav switch">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -39,7 +46,8 @@
                 <a class="nav-link" href="aktualnosci.html">Aktualności</a>
             </li>
             <li class="nav-item ms-3 dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu"
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false"
+                   id="submenu"
                    aria-haspopup="true">Rankingi
                 </a>
                 <div class="dropdown-menu" aria-labelledby="submenu">
@@ -68,32 +76,33 @@
 </nav>
 <main>
     <section class="container">
-    <h1>Stwórz swojego zawodnika</h1>
+        <h1>Stwórz swojego zawodnika</h1>
         <div class="row">
             <div class="col-md-6">
                 <form>
                     <table class="table">
                         <tbody>
-                            <tr>
-                                <td>Imię i nazwisko:</td>
-                                <td><input type="text" id="nazwa" pattern="[A-Za-z]{3}" title="Three letter country code"</td>
-                            </tr>
-                            <tr>
-                                <td>Główny sponsor:</td>
-                                <td>
-                                    <select id="sponsor">
+                        <tr>
+                            <td>Imię i nazwisko:</td>
+                            <td><input type="text" id="nazwa" pattern="[A-Za-z]{3}" title="Three letter country code"
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Główny sponsor:</td>
+                            <td>
+                                <select id="sponsor">
                                     <option>Atlas</option>
                                     <option>Blachotrapez</option>
                                     <option>Grupa Azoty</option>
                                     <option>Milka</option>
                                     <option>Szubryt</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Kolor kombinezonu:</td>
-                                <td>
-                                    <select id="kolor">
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kolor kombinezonu:</td>
+                            <td>
+                                <select id="kolor">
                                     <option>Czarny</option>
                                     <option>Brązowy</option>
                                     <option>Czerwony</option>
@@ -102,19 +111,19 @@
                                     <option>Różowy</option>
                                     <option>Zielony</option>
                                     <option>Żółty</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Firma nart:</td>
-                                <td>
-                                    <select id="narty">
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Firma nart:</td>
+                            <td>
+                                <select id="narty">
                                     <option>Fisher</option>
                                     <option>SlatNar</option>
                                     <option>BWT</option>
-                                    </select>
-                                </td>
-                            </tr>
+                                </select>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
 
@@ -131,7 +140,8 @@
         <div class="mb-3" id="zawodnicy"></div>
     </section>
 </main>
-<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">

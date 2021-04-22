@@ -1,26 +1,26 @@
 function validateForm() {
-    var name =  document.getElementById('name').value;
+    var name = document.getElementById('name').value;
     if (name === "") {
         document.querySelector('.status').innerHTML = "Pole z imieniem nie może być puste!";
         return false;
     }
-    var email =  document.getElementById('email').value;
-    if (email ==="") {
+    var email = document.getElementById('email').value;
+    if (email === "") {
         document.querySelector('.status').innerHTML = "Pole z emailem nie może być puste!";
         return false;
     } else {
         var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(!re.test(email)){
+        if (!re.test(email)) {
             document.querySelector('.status').innerHTML = "Niepoprawny email!";
             return false;
         }
     }
-    var subject =  document.getElementById('subject').value;
+    var subject = document.getElementById('subject').value;
     if (subject === "") {
         document.querySelector('.status').innerHTML = "Pole z tematem nie może być puste!";
         return false;
     }
-    var message =  document.getElementById('message').value;
+    var message = document.getElementById('message').value;
     if (message === "") {
         document.querySelector('.status').innerHTML = "Pole z wiadomością nie może być puste!";
         return false;
@@ -28,8 +28,7 @@ function validateForm() {
     document.querySelector('.status').innerHTML = "Wysłano &#128522;";
 }
 
-function czytaj1()
-{
+function czytaj1() {
     var dalej = 'Daniel doznał złamania obojczyka i do jutra będzie utrzymywany w śpiączce farmakologicznej, aby zmniejszyć obciążenie mózgu -' +
         ' stwierdził dyrektor sportowy Norweskiego Związku Narciarskiego, Clas Brede Braathen w rozmowie z telewizją NRK.<br><br>\n' +
         '\n' +
@@ -48,8 +47,8 @@ function czytaj1()
         '        <span class="text-center">Na 10 zawodników przed końcem serii próbnej Daniel Andre Tande zaliczył koszmarny wypadek. Tuż po\n' +
         '                        wyjściu z progu Norweg stracił panowanie nad nartami, a powietrze porwało mu lewą deskę. Skoczek natychmiast napiął całe\n' +
         '                        ciało i przycisnął do siebie ręce by chronić ograny wewnętrzne. Już wtedy wiedział, że skok zakończy się fatalnie.\n' +
-        'Upadek wyglądał groźnie, jednak wieści, które po ponad godzinie napłynęły z norweskiego obozu, były optymistyczne. Norweg w szpitalu oddychał samodzielnie, jego stan określono jako stabilny.'+
-        dalej+
+        'Upadek wyglądał groźnie, jednak wieści, które po ponad godzinie napłynęły z norweskiego obozu, były optymistyczne. Norweg w szpitalu oddychał samodzielnie, jego stan określono jako stabilny.' +
+        dalej +
         '        </span><br>\n' +
         '        ' +
         '        </div>\n';
@@ -57,12 +56,11 @@ function czytaj1()
 
 }
 
-function czytaj2()
-{
+function czytaj2() {
     var dalej = '<br><br>W finale Kamil Stoch przypieczętował końcowy triumf lotem na 140 metr. Lider reprezentacji Polski pokonał tym samym o 20,3' +
         ' punktu' +
         ' Norwega Mariusa Lindvika (140,5 m) oraz o 23,4 pkt. Niemca Karla Geigera (133,5 m). Tuż za konkursowym podium znaleźli się Stefan Kraft' +
-        ' (137 m), Robert Johansson (139 m) oraz Michael Hayboeck (137,5 m).<br><br>'+
+        ' (137 m), Robert Johansson (139 m) oraz Michael Hayboeck (137,5 m).<br><br>' +
         'Kamil Stoch po raz trzeci w karierze został triumfatorem Turnieju Czterech Skoczni. Reprezentant Polski triumfował wcześniej w 2017 i 2018 roku, tym samym zrównał się z Helmutem Recknagelem (1958, 1959 i 1961) oraz Bjoernem Wirkolą (1967, 1968 i 1969). Więcej zwycięstw mają tylko Fin Janne Ahonen (5 - 1999, 2003, 2005, 2006 i 2008) oraz Niemiec Jens Weissflog (4 - 1984, 1985, 1991 i 1996).';
     var tresc =
         '        <div class="text-center"><br>\n' +
@@ -71,8 +69,8 @@ function czytaj2()
         '        <div class="text-justify p-4">\n' +
         '        <span class="text-center"><b>Kamil Stoch zrobił to po raz trzeci! Trzykrotny mistrz olimpijski został triumfatorem 69. Turnieju Czterech Skoczni! "Rakieta z Zębu" przypieczętowała sukces 38. pucharowym zwycięstwem na Skoczni im. Paula Ausserleitnera (HS142) w Bischofshofen, dzięki skokom na 139 m i 140 m. Trzecie miejsce w końcowej klasyfikacji cyklu zajął Dawid Kubacki.</b></span><br><br>\n' +
         '        <span class="text-center">Pierwszą rundę konkursową rozegrano z 11. belki startowej. Halvor Egner Granerud na życzenie trenera' +
-        ' startował z 10. platformy, ale nie uzyskał wymaganej odległości, aby otrzymać bonifikatę.'+
-        dalej+
+        ' startował z 10. platformy, ale nie uzyskał wymaganej odległości, aby otrzymać bonifikatę.' +
+        dalej +
         '        </span><br>\n' +
         '        ' +
         '        </div>\n';
@@ -80,8 +78,7 @@ function czytaj2()
 
 }
 
-function czytaj3()
-{
+function czytaj3() {
     var dalej = '<br><br>Na kolejnych pozycjach sklasyfikowani zostali Pius Paschke (103 m), Marius Lindvik (102 m), Yukiya Sato (104 m) oraz Michael Hayboeck (101 m). Czołową dziesiątkę zamykał Daniel Andre Tande (101 m).' +
         'Do finału awansowało łącznie czterech Polaków. Dwudziesty trzeci na półmetku był Kamil Stoch (96 m), a dwudziesty dziewiąty Andrzej' +
         ' Stękała (95 m). Klemens Murańka z wynikiem 93 metrów zakończył udział w zawodach na trzydziestej szóstej pozycji.<br><br>' +
@@ -96,8 +93,8 @@ function czytaj3()
         '        <div class="text-justify p-4">\n' +
         '        <span class="text-center"><b>Jest złoto dla Polski! Piotr Żyła został mistrzem świata na normalnej skoczni w Oberstdorfie\n' +
         '                        (HS106)! Podopieczny trenera Michala Dolezala triumfował dzięki lotom na odległość 105 m oraz 102,5 m. Srebrny medal wywalczył Karl Geiger, a  brązowy Anze Lanisek. Piąty był Dawid Kubacki.</b></span><br><br>\n' +
-        '        <span class="text-center"> Piotr Żyła odleciał swoim rywalom w pierwszej serii konkursowej. Reprezentant Polski poszybował na 105 metr i na półmetku rywalizacji prowadził z przewagą 3 punktów nad Anze Laniskiem (102,5 m) oraz 3,1 pkt. nad Ryoyu Kobayashim (104 m). Czwarte miejsce zajmował Karl Geiger (103,5 m), a piąty był Dawid Kubacki (102 m). Obrońca tytułu tracił 0,6 punktu do miejsca na podium.'+
-        dalej+
+        '        <span class="text-center"> Piotr Żyła odleciał swoim rywalom w pierwszej serii konkursowej. Reprezentant Polski poszybował na 105 metr i na półmetku rywalizacji prowadził z przewagą 3 punktów nad Anze Laniskiem (102,5 m) oraz 3,1 pkt. nad Ryoyu Kobayashim (104 m). Czwarte miejsce zajmował Karl Geiger (103,5 m), a piąty był Dawid Kubacki (102 m). Obrońca tytułu tracił 0,6 punktu do miejsca na podium.' +
+        dalej +
         '        </span><br>\n' +
         '        ' +
         '        </div>\n';
@@ -107,10 +104,9 @@ function czytaj3()
 
 //GENERATOR:
 
-function dodajZadanie()
-{
+function dodajZadanie() {
     var nazwa = document.getElementById('nazwa').value;
-    if (nazwa==='') alert('Nie podano nazwy skoczka');
+    if (nazwa === '') alert('Nie podano nazwy skoczka');
     else {
         var item = {};
         item.nazwa = document.getElementById('nazwa').value;
@@ -130,67 +126,64 @@ function dodajZadanie()
         document.getElementById('narty').value = 'Fisher';
     }
 }
-function pokazListe()
-{
+
+function pokazListe() {
     $('card').removeAttr('display');
     var lista = JSON.parse(localStorage.getItem('lista'));
-    var el=document.getElementById('zawodnicy');
+    var el = document.getElementById('zawodnicy');
     var str = "<h1>Twoja lista zawodników: </h1><div class='row'>";
-    if (lista===null) el.innerHTML=str+"<p>Pusta lista zawodników</p>";
+    if (lista === null) el.innerHTML = str + "<p>Pusta lista zawodników</p>";
     else {
-        for(i=0;i<lista.length;i++)
-        {
-            str+="<div class='col-md-6 col-lg-4 mb-4'>";
-            str+="<div class='card border-0 transform on hover' style='margin-bottom: 30px;'>";
-            str+="<img src='img/skoczek/"+lista[i].narty+lista[i].kolor+".png' class='card-img-top img-sizing'>";
-            str+="<div class='card-body'>";
-            str+="<h5>"+lista[i].nazwa+"</h5>";
-            str+="<h6>"+lista[i].sponsor+"</h6>";
-            str+="<button class='btnsend mr-1' type='button' onclick='usunZadanie("+i+")' >Usuń</button>";
-            str+="<button class='btnsend' type='button' onclick='edycja("+i+")'>Edytuj</button>";
-            str+="</div></div></div>";
+        for (i = 0; i < lista.length; i++) {
+            str += "<div class='col-md-6 col-lg-4 mb-4'>";
+            str += "<div class='card border-0 transform on hover' style='margin-bottom: 30px;'>";
+            str += "<img src='img/skoczek/" + lista[i].narty + lista[i].kolor + ".png' class='card-img-top img-sizing'>";
+            str += "<div class='card-body'>";
+            str += "<h5>" + lista[i].nazwa + "</h5>";
+            str += "<h6>" + lista[i].sponsor + "</h6>";
+            str += "<button class='btnsend mr-1' type='button' onclick='usunZadanie(" + i + ")' >Usuń</button>";
+            str += "<button class='btnsend' type='button' onclick='edycja(" + i + ")'>Edytuj</button>";
+            str += "</div></div></div>";
         }
     }
-    str+='</div>';
-    el.innerHTML=str;
+    str += '</div>';
+    el.innerHTML = str;
 }
-function usunListe()
-{
-    if (confirm("Usunąć listę zawodników?"))
-    {
+
+function usunListe() {
+    if (confirm("Usunąć listę zawodników?")) {
         localStorage.removeItem('lista');
         //zaktualizuj widok na stronie
         $('#bok').html('');
         $('#zawodnicy').html('');
     }
 }
-function usunZadanie(i)
-{ var lista = JSON.parse(localStorage.getItem('lista'));
-    if (confirm("Usunąć zawodnika?")) lista.splice(i,1);
+
+function usunZadanie(i) {
+    var lista = JSON.parse(localStorage.getItem('lista'));
+    if (confirm("Usunąć zawodnika?")) lista.splice(i, 1);
     localStorage.setItem('lista', JSON.stringify(lista));
     pokazListe();
 }
 
-function edycja(i)
-{
+function edycja(i) {
     var lista = JSON.parse(localStorage.getItem('lista'));
-    $('#modaltitle1').html('Edytujesz zawodnika '+lista[i].nazwa);
-    $('#nazwae').attr('value',lista[i].nazwa);
+    $('#modaltitle1').html('Edytujesz zawodnika ' + lista[i].nazwa);
+    $('#nazwae').attr('value', lista[i].nazwa);
     $('#sponsore').val(lista[i].sponsor);
     $('#kolore').val(lista[i].kolor);
     $('#nartye').val(lista[i].narty);
     $('#modalfooter1').html
-        ("<button type='button' id='closebutton' onclick='zamknij()' >Anuluj</button>" +
-        "<button type='button' id='savebutton' onclick='zapisz("+i+")' >Zapisz zmiany</button>");
+    ("<button type='button' id='closebutton' onclick='zamknij()' >Anuluj</button>" +
+        "<button type='button' id='savebutton' onclick='zapisz(" + i + ")' >Zapisz zmiany</button>");
     $('#savebutton').addClass('btnsend');
     $('#closebutton').addClass('btncancel');
     $('#modal1').modal('show');
 }
 
-function zapisz(i)
-{
+function zapisz(i) {
     var lista = JSON.parse(localStorage.getItem('lista'));
-    if (document.getElementById('nazwae').value==='') alert('Nie podano nazwy skoczka')
+    if (document.getElementById('nazwae').value === '') alert('Nie podano nazwy skoczka')
     else {
         lista[i].nazwa = document.getElementById('nazwae').value;
         lista[i].sponsor = document.getElementById('sponsore').value;
@@ -202,8 +195,7 @@ function zapisz(i)
     }
 }
 
-function zamknij()
-{
+function zamknij() {
     $('#modal1').modal('hide');
 }
 
